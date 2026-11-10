@@ -1,4 +1,4 @@
-# Bike Demand Forecaster
+<# Bike Demand Forecaster
 
 Forecasts hourly bike-rental demand, serves predictions through a REST API, and monitors the model for accuracy decay by replaying held-out data one day at a time into PostgreSQL.
 
@@ -81,7 +81,7 @@ Returns `{"timestamp": "...", "predicted_rentals": ...}`.
 Requires Python 3.10+ and PostgreSQL.
 
 ```bash
-git clone https://github.com/<your-username>/bike-demand-forecaster.git
+git clone https://github.com/Vineeth-4/bike-demand-forecaster.git
 cd bike-demand-forecaster
 python -m venv .venv
 .venv\Scripts\activate          # Mac/Linux: source .venv/bin/activate
